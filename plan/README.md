@@ -32,7 +32,14 @@ Il en existe toute une floppées qui ont chacune leurs spécificités et qui cib
 
 ### Les gestionnaires de bureau
 
-blablabla personnalisation blablabla
+On peut utiliser Linux en mode console, ou en mode graphique avec un Desktop Environment, qui s'occupe de tout ça :
+
+* Bureau
+* Gestionnaire de fenêtres
+* Gestionnaire de l'affichage
+* Environnement graphique
+* Gestionnaire de sessions
+* Outils graphiques pour contrôler le système (paramètres, gestionnaire de fichiers, ...)
 
 ### La philosophie linuxienne
 
@@ -61,7 +68,7 @@ D'une façon générale, le principe de base de Linux est que **c'est vous qui c
 * force du libre (drivers, alternatives gratuites, ...)
 * utilisation du terminal
 * outils git, ssh, "bash" (pas vraiment un outil mais voilà), make...
-* idéal pour les développeurs ! (ce point est très important et est à développer mais je saurais pas le faire là direct dans ce .md sans exemple en live)
+-> idéal pour les développeurs 
 
 ## Mais il est quand même intéressant de garder Windows
 blablabla dual-boot blabla
@@ -92,7 +99,7 @@ L'arborescence sous Linux correspond à la manière sont agencés les dossiers (
 
 ![](https://raw.githubusercontent.com/robotronik/conferences/master/linux/Images/arborescence.png)
 
-Vous l'aurez peut être remarqué mais tous les dossiers mènent à /. Ce dossier a pour petit nom root. Il est ce que l'on appelle la racine du système. De ce dossier découle une floppé d'autre. Chacun à son utilité, nous allons voir quelques uns ensemble.
+Tous les dossiers mènent à /. Ce dossier a pour petit nom root. Il est ce que l'on appelle la racine du système. De ce dossier découle une floppée d'autrse. Chacun à son utilité, nous allons voir quelques uns ensemble.
 
 * home : ce dossier contient les fichiers des utilisateurs. C'est ici que se situe les données des utilisateurs.
 * usr : ce dossier contient tous les binaires de l'utilisateur, leur documentation, des librairies, des header, etc …
@@ -100,7 +107,7 @@ Vous l'aurez peut être remarqué mais tous les dossiers mènent à /. Ce dossie
 * var : dans ce dossier se situe les applications/programmes installé par l'utilisateur.
 
 Comme sur Windows, des chemins peuvent être absolus (définis à partir de la racine `/`, par ex : `/home/Documents/toto.txt`) ou relatifs (par exemple `Documents/toto.txt`). \
-Vous aurez remarqué que les délimiteurs de dossiers sont des barres obliques `/` et non des barres obliques inversées `\`.
+Attention, sur Linux les délimiteurs de dossiers sont des barres obliques `/` et non des barres obliques inversées `\`.
 
 ## Naviguer
 ### Savoir quel est le dossier courant
